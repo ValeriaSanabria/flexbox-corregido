@@ -1,0 +1,80 @@
+body {
+  background-image: url(https://image.shutterstock.com/image-photo/cook-book-products-on-wooden-260nw-1689764599.jpg);
+  background-size: contain;
+  font-size: 1.5rem;
+}
+
+.header {
+  width: 100%;
+}
+
+.Titulo {
+  color: black;
+  height: 100px;
+  text-align: center;
+  font-size: 70px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(231, 189, 231);
+  width: 100%;
+}
+
+.nav > ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  background-color: white;
+}
+
+.contenedor {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://previews.123rf.com/images/nnnnae/nnnnae1507/nnnnae150700110/41936393-fondo-de-libros-de-cocina-se-puede-utilizar-para-cocinar-panader%C3%ADa-y-alimentos-fondo-receta-dise%C3%B1o-b.jpg);
+  background-size: contain;
+}
+
+.contenedor > div {
+  display: inline-block;
+  text-align: center;
+}
+
+.der {
+  width: 37%;
+  color: black;
+  border: 3px solid #000;
+}
+.izq {
+  width: 61%;
+  color: black;
+  border: 3px solid #000;
+}
+.pie {
+  width: 100%;
+  height: 20px;
+  background-color: violet;
+}
+.altura {
+  height: 100px;
+}
+.altura2 {
+  height: 300px;
+}
+
+#home {
+  flex-grow: 1;
+}
+#contact {
+  order: 3;
+  flex-grow: 1;
+}
+#about {
+  order: 2;
+  flex-grow: 1;
+}
