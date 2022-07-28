@@ -45,6 +45,16 @@ body {
   text-align: center;
 }
 
+div > p {
+  background-color: bisque;
+  font-style: italic;
+}
+
+div > h2 {
+  background-color: gray;
+  font-weight: initial;
+}
+
 .der {
   width: 37%;
   color: black;
